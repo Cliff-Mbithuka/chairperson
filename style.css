@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital@0;1&family=Lexend+Deca:wght@100..900&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital@0;1&family=Madimi+One&display=swap');
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    text-align: center;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    color: red;
+}
+p{
+    text-align: left;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Lexend Deca", sans-serif;
+
+}
